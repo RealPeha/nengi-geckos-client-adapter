@@ -1,0 +1,47 @@
+{
+  "name": "nengi-geckos-client-adapter",
+  "version": "0.1.0",
+  "description": "geckos.io client network adapter for nengi v2",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "nengi",
+    "agapter",
+    "geckos",
+    "webrtc",
+    "udp"
+  ],
+  "author": "Stas Kardash (https://github.com/RealPeha)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RealPeha/nengi-geckos-client-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RealPeha/nengi-geckos-client-adapter/issues"
+  },
+  "devDependencies": {
+    "@geckos.io/common": "^2.3.1",
+    "nengi": "2.0.0-alpha.133",
+    "nengi-dataviews": "^0.4.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "nengi": "2.0.0-alpha.133",
+    "nengi-dataviews": "^0.4.0"
+  },
+  "dependencies": {
+    "@geckos.io/client": "^2.3.1"
+  },
+  "files": [
+    "dist/*",
+    "package.json",
+    "README.md",
+    "tsconfig.json"
+  ]
+}

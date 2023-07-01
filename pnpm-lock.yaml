@@ -1,0 +1,58 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@geckos.io/client':
+    specifier: ^2.3.1
+    version: 2.3.1
+
+devDependencies:
+  '@geckos.io/common':
+    specifier: ^2.3.1
+    version: 2.3.1
+  nengi:
+    specifier: 2.0.0-alpha.133
+    version: 2.0.0-alpha.133
+  nengi-dataviews:
+    specifier: ^0.4.0
+    version: 0.4.0
+  typescript:
+    specifier: ^5.1.6
+    version: 5.1.6
+
+packages:
+
+  /@geckos.io/client@2.3.1:
+    resolution: {integrity: sha512-1Hbyuio3d6VXyCEEkfvsUxbrGKVmdegaxS7o/8F61C6TDD6e2CWuh1QZ4+wP+/1/39gXGp5FTWehgSBy57SK6w==}
+    engines: {node: ^14.15 || >=16}
+    dependencies:
+      '@geckos.io/common': 2.3.1
+    dev: false
+
+  /@geckos.io/common@2.3.1:
+    resolution: {integrity: sha512-eR4pNILqhMqKa+yGPAqpr6xjBry49nlrJP8cYAPaxDgGUjUe3E60ja4LojtTYW4eJSx8nqSvkikJgmwFsrOOQg==}
+    dependencies:
+      '@yandeu/events': 0.0.6
+
+  /@yandeu/events@0.0.6:
+    resolution: {integrity: sha512-TDwm4kpur8fqWduqZmrgSc3VLYIOflroVB2JhsM8XxL7KrVzviCXdiEGdUmslGi+ymMl5VsmOlw1+5vjoAsQPg==}
+
+  /nengi-dataviews@0.4.0:
+    resolution: {integrity: sha512-ov+D06aJ69YdIJRtm6Z0KI5L02VjMpDQXpYNzYDjAWnlsX/a8W1r87QKZmLIaCR6QYLvBlDLH1zolhxOTjL+Gw==}
+    dependencies:
+      nengi: 2.0.0-alpha.133
+      typescript: 5.1.6
+    dev: true
+
+  /nengi@2.0.0-alpha.133:
+    resolution: {integrity: sha512-8KmSe59b0tW3/nZyKVpJSRAL+FzBYuU1PUlqx7Z1dtj81GHmm3cR4ORqLoiYzCsocLBuLtbPHRHsoE+0K3Ibfw==}
+    dev: true
+
+  /typescript@5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
